@@ -1,14 +1,43 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
+---
+title: christopherson.io
+description: Zach's thoughts on data analytics and visualization cloud technologies.
+baseurl: 
+url: http://christopherson.io
+username: Zach Christopherson
+user_title: Zach Christopherson - Senior Amazon Redshift Database Engineer
+email: zach@christopherson.io
+twitter_username: zach_data
+github_username: zach-data
+linkedin_username: zachchristopherson
+gplus_username: 
+disqus_username: 
 markdown: kramdown
+highlighter: rouge
+permalink: "/:title/"
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+links:
+- title: home
+  url: "/"
+- title: my posts
+  url: "/posts"
+- title: series
+  url: "/series"
+- title: tags
+  url: "/tags"
+- title: about me
+  url: "/about"
+projects:
+- name: amazon-redshift-utils
+  url: https://github.com/awslabs/amazon-redshift-utils
+- name: amazon-redshift-udfs
+  url: https://github.com/awslabs/amazon-redshift-udfs
+- name: amazon-redshift-monitoring
+  url: https://github.com/awslabs/amazon-redshift-monitoring/tree/realtime
+exclude:
+- package.json
+- src
+- node_modules
