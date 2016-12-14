@@ -1,5 +1,5 @@
 ---
-title: Redshift playbook featured in Hadoop Weekly
+title: Redshift Table Design Playbook
 layout: post
 permalink: redshift-advanced-table-design-playbook/
 date: '2016-12-12 10:19:35'
